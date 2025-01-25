@@ -1,0 +1,109 @@
+body{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+
+}
+.parents{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black ;
+    height: 66px;
+    
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: purple;
+    margin-left: 40px;
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+
+}
+a:hover{
+color: greenyellow;
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+
+}
+p{
+    color: rgb(161, 161, 241);
+    text-align: center;
+    font-size: 25px;
+}
+/* .child{
+    position: relative;
+    mar */
+
+.button1{
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 30px;
+    color: blue;
+    margin-top: 5px;
+    position: relative;
+    bottom: 40px;
+    margin-left: 50%;
+    
+}
+button:hover{
+    color: black;
+}
+.button2{
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 30px;
+    color: blue;
+    margin-top: 5px;
+    position: relative;
+    bottom: 75px;
+    margin-left: 40%;
+}
+.type{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+input{
+    color: blue;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+input:hover{
+color: black;
+}
+.message{
+    color: blue;
+    border: 5px solid black;
+    border-radius: 10px;
+
+}
+.foter{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+}
+strong{
+    color: blue;
+}
+strong:hover{
+    color: black;
+}
+.link1{
+    color: black;
+}
+.link2{
+    color: black;
+}
